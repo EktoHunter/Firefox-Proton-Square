@@ -1,5 +1,6 @@
 # Firefox Proton Square
 *Recreates the feel of Quantum with its squared tabs and menus. No rounded corners to be seen.*
+*I consider this a fix, as rounded buttons aren't a feature but a nuisance.*
 
 
 
