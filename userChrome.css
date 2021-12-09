@@ -1,17 +1,8 @@
-/* USER FACING VARIABLES ------------------------------------------------------------------------------------- */
-
+/* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
 /* change the hex value of --custom-accent-color */
+
 :root {
   --custom-accent-color: #0a84ff;
-}
-
-
-/* comment out following code block to override default min/max/close buttons with mozilla themed ones */
-.titlebar-button {
-  appearance: auto !important;
-}
-.titlebar-min:-moz-lwtheme, .titlebar-max:-moz-lwtheme, .titlebar-restore:-moz-lwtheme, .titlebar-close:-moz-lwtheme {
-  list-style-image: none !important;
 }
 
 
@@ -84,7 +75,6 @@ otherwise will change height when tabs overflow */
 }
 
 
-
 /* Tab - Connect to window */
 .tab-background {
   border-radius: 0 !important;
@@ -127,7 +117,7 @@ otherwise will change height when tabs overflow */
 .tabbrowser-tab {padding-inline: 0 !important;}
 
 
-/* Unselected Tab - Divide line */
+ /* Unselected Tab - Divide line */
 .tab-content::before,
 .tab-content::after {
   content: "" !important;
@@ -151,13 +141,17 @@ otherwise will change height when tabs overflow */
 {
   opacity: var(--tab-separator-opacity) !important;
 }
-
    
 
 
 
-
 /* NAV BAR ---------------------------------------------------------------------------------------------------- */
+
+/* reduce height of navbar/urlbar to remove unnecessary white space
+and more closely match the height of quantum's compact density */
+#nav-bar {height: 40px !important}
+#search-container {height: 35px !important; padding-top: 0!important;}
+
 
 :root{
   /* reduce padding between menu items */
@@ -176,7 +170,10 @@ otherwise will change height when tabs overflow */
 
 
 /* squares the profile picture on toolbar if logged into sync */
-#fxa-avatar-image {border-radius: 0 !important;}
+/* #fxa-avatar-image {border-radius: 0 !important;} */
+#fxa-avatar-image {
+transform: scale(1.25) !important;
+}
 
 
 
@@ -323,9 +320,6 @@ notification-message {border-radius: 0 !important;}
 .animated {border-radius: 0 !important;}
 .infobar {border-radius: 0 !important;}
 
-
-#sanitizeDurationChoice {border-radius: 0 !important;}
-#sanitizeEverythingWarningBox {border-radius: 0 !important;}
 
 /* TODO --------------------------------------------------------------------------------------------- */
 /* +/- buttons for zoom in appmenu */
