@@ -12,6 +12,10 @@
 
 ## Features
 
+**Different Fix for the NavBar than leadweedy**
+Uses `nav-bar {height: 40px !important}` and `#search-container {height: 35px !important; padding-top: 0!important;}`
+to create a symmetrical navbar.
+
 **Tab Design**
   - Square corners
   - Connect with toolbar (no floating tabs)
