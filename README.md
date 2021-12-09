@@ -3,7 +3,7 @@
 
 
 
-![Sample Screenshot of Theme](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/ff_protonbutquantum.png "Sample Screenshot")
+![Sample Screenshot of Theme](https://raw.githubusercontent.com/EktoHunter/Firefox-Proton-Square/main/images/ff_protonbutquantum.png "Sample Screenshot")
 
   If you are like me and hate rounded corners, this is for you.
   
